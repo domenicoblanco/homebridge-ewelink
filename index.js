@@ -39,7 +39,7 @@ function eWeLink(log, config, api) {
     }
 
     if (!config['apiHost']) {
-        config['apiHost'] = 'us-api.coolkit.cc:8080';
+        config['apiHost'] = 'eu-api.coolkit.cc:8080';
     }
     if (!config['webSocketApi']) {
         config['webSocketApi'] = 'us-pconnect3.coolkit.cc';
